@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sidebar">
+        <img src="logo.png" alt="Logo" style="width: 50px; display: block; margin: 0 auto 20px;" onerror="this.style.display='none'">
+        <h2>Portal</h2>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="notebook.html">Virtual Notebook</a>
+        <a href="tasks.html">Tasks</a>
+        <a href="profile.html">Profile</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+
+    <div class="main">
+        <div>
+            <span class="badge bg-dark fs-6 mb-2">Dashboard</span>
+            <h2 style="color: #6320EE;" class="mb-1 text-shadow">Information and Communications Technology</h2>
+            <p class="text-white mb-4" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.6);">The Curriculum</p>
+
+            <div class="card glass-card">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <h5 style="color: #6320EE;" class="fw-bold">I. 1st Quarter</h5>
+                        <ul class="ps-3 text-dark">
+                            <li>Introduction to HTML</li>
+                            <li>Basic CSS Styling</li>
+                            <li>Quarter Project</li>
+                        </ul>
+
+                        <h5 style="color: #6320EE;" class="fw-bold mt-4">II. 2nd Quarter</h5>
+                        <ul class="ps-3 text-dark">
+                            <li>Introduction to Bootstrap</li>
+                            <li>Bootstrap with Forms</li>
+                            <li>Quarter Project</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-6">
+                        <h5 style="color: #6320EE;" class="fw-bold">III. 3rd Quarter</h5>
+                        <ul class="ps-3 text-dark">
+                            <li>Introduction to JavaScript</li>
+                            <li>JavaScript data types, operators and variables</li>
+                            <li>JavaScript functions and events</li>
+                            <li>Quarter Project</li>
+                        </ul>
+
+                        <h5 style="color: #6320EE;" class="fw-bold mt-4">IV. 4th Quarter</h5>
+                        <ul class="ps-3 text-dark">
+                            <li>Conditional Statements</li>
+                            <li>Iteration Statements</li>
+                            <li>Quarter Project</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-credits d-flex justify-content-between align-items-center">
+            <span><strong>Created by:</strong> Georgina Sarmiento, Destiny Reyes (9 - Topaz)</span>
+            <span><strong>Source:</strong> <a href="https://www.w3schools.com" target="_blank">W3Schools</a></span>
+        </div>
+    </div>
+
+    <script src="proj.js"></script>
+</body>
+</html>
