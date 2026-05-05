@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<nav class="navbar navbar-expand-sm fixed-top" style="background-color: #6320EE; font-family: Arial, sans-serif;">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src='logo.png' alt="logo" width="30px" length="30px" style=" border-radius: 100%;"></a>
+        <div class="collapse navbar-collapse" id="syntaxbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item" style="font-size: 20px;"><a href="#" class="nav-link text-white">School</a></li>
+            </ul>
+            <form class="d-flex">
+                <input type="text" class="form-control me-2" placeholder="Search">
+                <button type="button" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
     <div class="sidebar">
         <img src="logo.png" alt="Logo" style="width: 50px; display: block; margin: 0 auto 20px;" onerror="this.style.display='none'">
         <h2>Portal</h2>
@@ -58,12 +71,13 @@
                 </div>
             </div>
         </div>
-
-        <div class="footer-credits d-flex justify-content-between align-items-center">
-            <span><strong>Created by:</strong> Georgina Sarmiento, Destiny Reyes (9 - Topaz)</span>
-            <span><strong>Source:</strong> <a href="https://www.w3schools.com" target="_blank">W3Schools</a></span>
-        </div>
     </div>
+    <footer style="width: 100%;">
+        <div class="footer-content" style="color:white;background-color: #8075FF; align-items: baseline; min-height: 30vh;padding: 20px;">
+            <p style="text-align: center; padding: 30px; align-items: center;">DESTINY REYES & GEORGINA SARMIENTO | 9 - Topaz © 2026</p>
+                <p style="text-align: center; align-items: center;">Source: <a href="https://www.w3schools.com" target="_blank" class="link-light">W3Schools</a></p>
+        </div>
+    </footer>
 
     <script src="proj.js"></script>
 </body>
